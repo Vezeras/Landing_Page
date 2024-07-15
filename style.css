@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    margin: 0px;
+    flex: auto;
+}
+
+ul {
+    list-style: none;
+    gap: 16px;
+    margin: 8px;
+    flex: 0 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-style: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0px;
+    justify-content: space-evenly;
+    font-size: 24px;
+    font-style: #f9faf8;
+}
+
+.s1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    flex: 0 0 auto;
+    margin: 16px;
+    padding: 40px;
+    border: 0px;
+    gap: 16px;
+    text-align: left;
+}
+
+.s1ah {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.s1ab {
+    font-size: 18px;
+    text-align: left;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
+    border-color: #3882F6;
+}
+
+.s2 {
+    color: #1f2937;
+    background-color: white; 
+    border-color: white;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.s2h {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-bottom: 30px;
+}
+
+.s2-box {
+    display: flex;
+    flex-flow: row nowrap;
+   justify-content: center;
+   margin: 8px;
+   padding: 8px;
+   gap: 50px;
+}
+
+.s3 {
+    color: #1f2937;
+    background-color: #E5E7EB;
+    padding: 60px;
+    font-weight: bold;
+}
+
+.quote {
+    font-style: light italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.s4 {
+    background-color: white;
+    padding: 20px;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 25px;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action {
+    font-size:18px;
+    font-weight: 100;
+}
+
+.b2 {
+    border-color: white;
+    margin: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
